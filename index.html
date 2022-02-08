@@ -27,8 +27,8 @@
     container = document.getElementById( 'container' );
     //поворачивает наши 3D объекты, при наведении мыши
     container.onmousemove=function(event){
-      group.rotation.y+=event.movementX/15;
-      group.rotation.x+=event.movementY/15;
+      group.rotation.y+=event.movementX/45;
+      group.rotation.x+=event.movementY/45;
     }
     //создаем камеру
     camera = new THREE.PerspectiveCamera( 
